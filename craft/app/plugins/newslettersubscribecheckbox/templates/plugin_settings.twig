@@ -1,0 +1,13 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+    label:      'Mailchimp API Key',
+    name:       'mailchimpApiKey',
+    value:      settings.mailchimpApiKey,
+}) }}
+
+{{ forms.textField({
+    label:      'Campaign Monitor API Key',
+    name:       'campaignMonitorApiKey',
+    value:      settings.campaignMonitorApiKey,
+}) }}

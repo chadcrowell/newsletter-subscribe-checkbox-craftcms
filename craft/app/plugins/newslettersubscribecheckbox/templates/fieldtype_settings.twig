@@ -1,0 +1,17 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+    label:      'Subscriber List ID',
+    id:			'subscriberListId',
+    name:       'subscriberListId',
+    value:      settings.subscriberListId,
+    instructions: "Enter the subscriber list ID for the list you want the visitor subscribed to."|t,
+}) }}
+
+{{ forms.textField({
+    label:      'Field Label Text',
+    id:			'fieldLabelText',
+    name:       'fieldLabelText',
+    value:      settings.fieldLabelText,
+    instructions: "Enter the text you want printed beside the checkbox."|t,
+}) }}

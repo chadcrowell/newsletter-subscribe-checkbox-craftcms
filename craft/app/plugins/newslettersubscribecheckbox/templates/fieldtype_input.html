@@ -1,0 +1,21 @@
+{#
+/**
+ * Newsletter Subscribe Checkbox plugin for Craft CMS
+ *
+ * NewsletterSubscribeCheckbox_NewslettersubscribeFieldType HTML
+ *
+ * @author    Chad Crowell
+ * @copyright Copyright (c) 2016 Chad Crowell
+ * @link      http://clearfirestudios.com
+ * @package   NewsletterSubscribeCheckbox
+ * @since     0.1
+ */
+#}
+
+{% spaceless %}
+<div class="newsletterSubscribeCheckbox">
+    <label>
+        <input type="checkbox" id="newsletterSubscribeCheckbox" name="newsletterSubscribeCheckbox" value="y">&nbsp;{{ settings.fieldLabelText|raw }}
+    </label>
+</div>
+{% endspaceless %}
