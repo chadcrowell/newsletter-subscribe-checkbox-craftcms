@@ -47,6 +47,6 @@ We needed to integrate Mailchimp with Sprout Forms for a client, and with a hat 
 
 ## Newsletter Subscribe Checkbox Changelog
 
-#### 0.1 -- 2016.05.14
+#### 0.1 -- 2016.05.24
 
 * Initial release
