@@ -45,8 +45,6 @@ We needed to integrate Mailchimp with Sprout Forms for a client, and with a hat 
 - You can add a newsletter subscribe checkbox field to any or all forms on your site, but can only add 1 to each form (due to the field handle limitation) at this time (why you'd need more than 1 on a form is beyond me).
 - Even though this field type will show up in your main Channel Fields list of available field types, it doesn't work there. Do not attempt to add a newsletter subscribe checkbox field to a section/channel.
 
-* Release it
-
 ## Newsletter Subscribe Checkbox Changelog
 
 #### 0.1 -- 2016.05.14
