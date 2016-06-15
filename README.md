@@ -50,3 +50,8 @@ We needed to integrate Mailchimp with Sprout Forms for a client, and with a hat 
 #### 0.1 -- 2016.05.24
 
 * Initial release
+
+#### 0.11 -- 2016.06.15
+
+* Fixed casing on call to Mailchimp API file
+
