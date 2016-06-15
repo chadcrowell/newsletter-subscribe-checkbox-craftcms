@@ -18,7 +18,7 @@
  * @copyright Copyright (c) 2016 Chad Crowell
  * @link      http://clearfirestudios.com
  * @package   NewsletterSubscribeCheckbox
- * @since     0.1
+ * @since     0.11
  */
 
 namespace Craft;
