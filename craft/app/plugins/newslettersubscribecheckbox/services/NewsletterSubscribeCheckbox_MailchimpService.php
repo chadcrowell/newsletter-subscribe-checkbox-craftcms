@@ -18,7 +18,7 @@ class NewsletterSubscribeCheckbox_MailchimpService extends BaseApplicationCompon
         	$listId == '' || 
         	$email == '') return FALSE;
 
-        require_once CRAFT_PLUGINS_PATH . 'newslettersubscribecheckbox/vendor/mcapi_v3/Mailchimp.php';
+        require_once CRAFT_PLUGINS_PATH . 'newslettersubscribecheckbox/vendor/mcapi_v3/MailChimp.php';
 
         $MailChimp = new MailChimp($apiKey);
 
